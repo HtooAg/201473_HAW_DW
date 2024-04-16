@@ -1,0 +1,152 @@
+.custom-z-index {
+	z-index: 9999;
+}
+
+.flip-main img {
+	width: 100%;
+	vertical-align: middle;
+	object-fit: cover;
+}
+
+.flip-main .row {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.flip-main .flip-card {
+	flex: 0 0 calc(35.33% - 30px);
+	margin: 0 1px 30px;
+	border-radius: 30px;
+}
+
+.flip-main .flip-card-inner {
+	box-shadow: 0 0 10px #a9b3d6;
+	position: relative;
+	transform-style: preserve-3d;
+	transition: all 1s ease;
+	border-radius: 30px;
+}
+
+.flip-main .flip-card-front img {
+	height: 400px;
+	width: 100%;
+}
+
+.flip-main .flip-card-front,
+.flip-main .flip-card-back {
+	backface-visibility: hidden;
+}
+
+.flip-main .flip-card-back {
+	position: absolute;
+	left: 0;
+	top: 0;
+	padding: 15px;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	transform: rotateY(180deg);
+}
+
+.flip-main .flip-card-back h3 {
+	font-size: 24px;
+	color: #ffffff;
+	margin: 0 0 5px;
+}
+
+.flip-main .flip-card-back p {
+	font-size: 16px;
+	color: #e9e9e9;
+	margin: 0;
+}
+
+.flip-main .flip-card-back .text {
+	text-shadow: var(--primary-textshadow);
+}
+
+.flip-main .flip-card:hover .flip-card-inner {
+	transform: rotateY(180deg);
+}
+
+@media (max-width: 991px) {
+	.flip-main .flip-card {
+		flex: 0 0 calc(50% - 30px);
+	}
+}
+
+@media (max-width: 767px) {
+	.flip-main .flip-card {
+		flex: 0 0 calc(100% - 30px);
+	}
+}
+
+.card3D {
+	position: relative;
+	margin: 20px 0;
+	width: 100%;
+	height: 400px;
+	background: #fff;
+	transform-style: preserve-3d;
+	transform: perspective(2000px);
+	transition: 1s;
+	box-shadow: inset 100px 0 50px rgba(0, 0, 0, 0.5);
+}
+
+.card3D:hover {
+	z-index: 1111;
+	transform: perspective(2000px) rotate(-10deg);
+	box-shadow: inset 20px 0 50px rgba(0, 0, 0, 0.5);
+}
+
+.card3D .img-container {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	border: 1px solid #000;
+	box-sizing: border-box;
+	transform-origin: left;
+	z-index: 1;
+	transition: 1s;
+}
+
+.card3D .img-container img {
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+.card3D:hover .img-container {
+	transform: rotateY(-135deg);
+}
+
+.card3D .card-details {
+	position: absolute;
+	left: 0;
+	top: 0;
+	box-sizing: border-box;
+	padding: 20px;
+	color: #000;
+	text-align: center;
+}
+
+.card3D .card-details h2 {
+	margin: 0;
+	padding: 0.5em 0;
+	text-transform: uppercase;
+	font-size: 2em;
+	color: var(--primary-color);
+	text-align: center;
+}
+
+.card3D .card-details p {
+	margin: 0;
+	padding: 0;
+	line-height: 25px;
+	font-size: 1.1em;
+}

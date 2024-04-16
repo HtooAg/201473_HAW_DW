@@ -1,0 +1,15 @@
+#stream .top {
+	background: url(https://www.yamaha.com/us/pianos/images/keyline-top.jpg)
+		no-repeat center;
+	background-size: cover;
+	height: 6px;
+	width: 100%;
+}
+
+#stream .ter-font {
+	font-family: var(--secondary-font);
+}
+
+#stream p {
+	margin-top: 1rem;
+}

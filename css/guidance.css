@@ -1,0 +1,121 @@
+#info .title {
+	display: inline-block;
+	border-bottom: 3px solid purple;
+}
+
+.info .transition {
+	transition: 0.3s cubic-bezier(0.3, 0, 0, 1.3);
+}
+
+.info .card {
+	background-color: #fff;
+	box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.3);
+	height: 300px;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+
+.info .card:hover {
+	height: 450px;
+	cursor: pointer;
+}
+
+.info .card:hover .cta-container {
+	cursor: pointer;
+	display: block;
+}
+
+.info .card:hover .card_circle {
+	border-radius: 0;
+	margin-top: -130px;
+	cursor: pointer;
+}
+
+.info .card:hover h2 {
+	cursor: pointer;
+	color: #fff;
+	padding: 5px;
+	margin-top: -50px;
+}
+
+.info .card_circle {
+	height: 300px;
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.info .card_circle img {
+	background-size: cover;
+	object-fit: cover;
+	background: no-repeat center bottom;
+	width: 100%;
+	height: 300px;
+}
+
+.info .card h2,
+.info .card p,
+.info .card .cta-container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	width: 80%;
+	z-index: 1;
+}
+
+.info .card h2 {
+	color: #fff;
+	font-size: 1.7rem;
+	font-weight: 500;
+	margin-top: 100px;
+	text-shadow: var(--primary-textshadow);
+}
+
+.info .card p {
+	font-size: 1rem;
+	font-weight: normal;
+	margin-top: 120px;
+	display: none;
+}
+
+.info .card:hover p {
+	display: block;
+}
+
+.info .card .cta-container {
+	margin-top: 250px;
+	width: 100%;
+	display: none;
+}
+
+.info .card .cta-container:hover {
+	display: block;
+}
+
+.info .card .cta {
+	border: 2px solid #54b4d3;
+	border-radius: 5px;
+	color: #54b4d3;
+	font-size: 1rem;
+	font-weight: 400;
+	height: 36px;
+	letter-spacing: 0.5px;
+	line-height: 50px;
+	padding: 0.5rem 0.8rem;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: 0.2s ease-out;
+}
+
+.info .card .cta:hover {
+	background-color: #54b4d3;
+	color: #fff;
+	box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2),
+		0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	cursor: pointer;
+}

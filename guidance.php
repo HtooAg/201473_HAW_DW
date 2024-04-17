@@ -157,274 +157,269 @@ include('./_actions/loginTest.php');
 	</div>
 	<!-- Start Information -->
 	<div class="info container my-4" id="info">
-		<div class="text-center">
-			<h2 class="title mt-3">
-				Make Protection
-			</h2>
+		<div data-aos="zoom-in" data-aos-duration="1500">
+			<div class="text-center">
+				<h2 class="title mt-3">
+					Make Protection
+				</h2>
+			</div>
 		</div>
 		<div class="row">
 			<div class="col-lg-6 col-md-12 mt-5 mb-4">
-				<div class="card transition">
-					<h2 class="transition">GDPR</h2>
-					<p class="pt-3">
-						GDPR is a comprehensive data protection law enacted by the European Union (EU) to safeguard the privacy and personal data of individuals within the EU and the European Economic Area (EEA).
-					</p>
-					<!-- <div class="cta-container transition">
-						<a href="#" class="cta">Read More</a>
-					</div> -->
-					<div class="card_circle transition">
-						<img src="img/guide1.jpg" class="card_image" alt="" />
+				<div data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000">
+					<div class="card transition">
+						<h2 class="transition">GDPR</h2>
+						<p class="pt-3">
+							GDPR is a comprehensive data protection law enacted by the European Union (EU) to safeguard the privacy and personal data of individuals within the EU and the European Economic Area (EEA).
+						</p>
+						<div class="card_circle transition">
+							<img src="img/guide1.jpg" class="card_image" alt="" />
+						</div>
 					</div>
-				</div>
-				<div class="accordion" id="accordionExample3">
-					<div class="accordion-item rounded-0">
-						<h2 class="accordion-header">
-							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-								<strong>General Data Protection Regulation (GDPR)</strong>
-							</button>
-						</h2>
-						<div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample4">
-							<div class="accordion-body">
-								<p>
-									It establishes strict guidelines for the collection, processing, and storage of personal data by businesses and organizations, aiming to enhance data protection rights and ensure transparency in data processing practices. <br><br> GDPR requires organizations to obtain explicit consent from individuals before collecting their personal information, and it imposes strict penalties for non-compliance, including hefty fines of up to €20 million or 4% of global annual turnover, whichever is higher. <br><br> As such, GDPR represents a landmark regulation that sets a global standard for data protection and privacy rights, reshaping the way businesses and organizations handle personal data in the digital age.
-
-
-								</p>
+					<div class="accordion" id="accordionExample3">
+						<div class="accordion-item rounded-0">
+							<h2 class="accordion-header">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+									<strong>General Data Protection Regulation (GDPR)</strong>
+								</button>
+							</h2>
+							<div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample4">
+								<div class="accordion-body">
+									<p>
+										It establishes strict guidelines for the collection, processing, and storage of personal data by businesses and organizations, aiming to enhance data protection rights and ensure transparency in data processing practices. <br><br> GDPR requires organizations to obtain explicit consent from individuals before collecting their personal information, and it imposes strict penalties for non-compliance, including hefty fines of up to €20 million or 4% of global annual turnover, whichever is higher. <br><br> As such, GDPR represents a landmark regulation that sets a global standard for data protection and privacy rights, reshaping the way businesses and organizations handle personal data in the digital age.
+									</p>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 			<div class="col-lg-6 col-md-12 mt-5 mb-4">
-				<div class="card transition">
-					<h2 class="transition">FERPA</h2>
-					<p class="pt-3">
-						FERPA is a federal law in the United States designed to protect the privacy of student education records. FERPA serves as a crucial safeguard for the privacy of student education records across various educational institutions, including schools, colleges, and universities.
-					</p>
-					<!-- <div class="cta-container transition">
-						<a href="#" class="cta">Read More</a>
-					</div> -->
-					<div class="card_circle transition">
-						<img src="img/guide2.png" class="card_image" alt="" />
-					</div>
-				</div>
-				<div class="accordion" id="accordionExample3">
-					<div class="accordion-item rounded-0">
-						<h2 class="accordion-header">
-							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-								<strong>Family Educational Rights and Privacy Act (FERPA)</strong>
-							</button>
-						</h2>
-						<div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample4">
-							<div class="accordion-body">
-								<p>
-									It grants parents certain rights regarding their children's educational records, including the right to inspect and review records, request corrections, and control the disclosure of personal information. <br><br>FERPA applies to all educational institutions that receive federal funding, including public schools, colleges, and universities. Under FERPA, educational institutions must obtain written consent from parents before disclosing students' personally identifiable information to third parties. <br><br>FERPA embodies a commitment to upholding the fundamental principles of privacy and confidentiality in the educational landscape, fostering trust and integrity in the handling of student records.
+				<div data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1300">
+					<div class="card transition">
+						<h2 class="transition">FERPA</h2>
+						<p class="pt-3">
+							FERPA is a federal law in the United States designed to protect the privacy of student education records. FERPA serves as a crucial safeguard for the privacy of student education records across various educational institutions, including schools, colleges, and universities.
+						</p>
 
+						<div class="card_circle transition">
+							<img src="img/guide2.png" class="card_image" alt="" />
+						</div>
+					</div>
+					<div class="accordion" id="accordionExample3">
+						<div class="accordion-item rounded-0">
+							<h2 class="accordion-header">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+									<strong>Family Educational Rights and Privacy Act (FERPA)</strong>
+								</button>
+							</h2>
+							<div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample4">
+								<div class="accordion-body">
+									<p>
+										It grants parents certain rights regarding their children's educational records, including the right to inspect and review records, request corrections, and control the disclosure of personal information. <br><br>FERPA applies to all educational institutions that receive federal funding, including public schools, colleges, and universities. Under FERPA, educational institutions must obtain written consent from parents before disclosing students' personally identifiable information to third parties. <br><br>FERPA embodies a commitment to upholding the fundamental principles of privacy and confidentiality in the educational landscape, fostering trust and integrity in the handling of student records.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div data-aos="zoom-in" data-aos-duration="1500">
+				<div class="text-center">
+					<h2 class="title mt-3">
+						Make Guidelines
+					</h2>
+				</div>
+			</div>
+			<div class="col-lg-6 col-md-12 mt-5 mb-4">
+				<div data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000">
+					<div class="card transition">
+						<h2 class="transition">DMCA</h2>
+						<p class="pt-3">
+							The Digital Millennium Copyright Act (DMCA) is a U.S. copyright law enacted to address the challenges of copyright protection and enforcement in the digital age.
+						</p>
+						<div class="card_circle transition">
+							<img src="img/guide3.jpg" class="card_image" alt="" />
+						</div>
+					</div>
+					<div class="accordion" id="accordionExample3">
+						<div class="accordion-item rounded-0">
+							<h2 class="accordion-header">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+									<strong>Digital Millennium Copyright Act (DMCA)</strong>
+								</button>
+							</h2>
+							<div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample4">
+								<div class="accordion-body">
+									<p>
+										It provides a legal framework for online service providers (OSPs) and copyright owners to address copyright infringement on the internet. <br><br>The DMCA includes provisions for OSPs to qualify for safe harbor protection from liability for copyright infringement committed by their users, provided they promptly respond to takedown notices from copyright owners. <br><br> Additionally, the DMCA establishes mechanisms for copyright owners to protect their works online through notice and takedown procedures, enabling them to request the removal of infringing content from websites and online platforms.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-6 col-md-12 mt-5 mb-4">
+				<div data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1300">
+					<div class="card transition">
+						<h2 class="transition">Guidelines</h2>
+						<p class="pt-3">
+							These guidelines offer valuable recommendations for individuals and organizations to navigate social media platforms responsibly and ethically.
+						</p>
+						<div class="card_circle transition">
+							<img src="img/info3.jpg" class="card_image" alt="" />
+						</div>
+					</div>
+					<div class="accordion" id="accordionExample3">
+						<div class="accordion-item rounded-0">
+							<h2 class="accordion-header">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+									<strong>Best Practice Guidelines for Social Media Use</strong>
+								</button>
+							</h2>
+							<div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample4">
+								<div class="accordion-body">
+									<p>
+										They cover a range of topics, including privacy protection, content moderation, online etiquette, and fostering positive engagement with followers. <br><br> By following these guidelines, users can cultivate a safer and more constructive online environment while minimizing the risks associated with social media use, such as privacy breaches, cyberbullying, and misinformation dissemination. <br><br>Furthermore, adhering to best practices helps mitigate the negative impact of harmful online behaviors, such as cyberbullying and harassment, by promoting empathy and understanding among users.
 
-								</p>
+									</p>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="text-center">
-				<h2 class="title mt-3">
-					Make Guidelines
-				</h2>
+			<div data-aos="zoom-in" data-aos-duration="1500">
+				<div class="text-center">
+					<h2 class="title mt-3">
+						Stay Safe
+					</h2>
+				</div>
 			</div>
 			<div class="col-lg-6 col-md-12 mt-5 mb-4">
-				<div class="card transition">
-					<h2 class="transition">DMCA</h2>
-					<p class="pt-3">
-						The Digital Millennium Copyright Act (DMCA) is a U.S. copyright law enacted to address the challenges of copyright protection and enforcement in the digital age.
-					</p>
-					<!-- <div class="cta-container transition">
-						<a href="#" class="cta">Read More</a>
-					</div> -->
-					<div class="card_circle transition">
-						<img src="img/guide3.jpg" class="card_image" alt="" />
-					</div>
-				</div>
-				<div class="accordion" id="accordionExample3">
-					<div class="accordion-item rounded-0">
-						<h2 class="accordion-header">
-							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-								<strong>Digital Millennium Copyright Act (DMCA)</strong>
-							</button>
-						</h2>
-						<div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample4">
-							<div class="accordion-body">
-								<p>
-									It provides a legal framework for online service providers (OSPs) and copyright owners to address copyright infringement on the internet. <br><br>The DMCA includes provisions for OSPs to qualify for safe harbor protection from liability for copyright infringement committed by their users, provided they promptly respond to takedown notices from copyright owners. <br><br> Additionally, the DMCA establishes mechanisms for copyright owners to protect their works online through notice and takedown procedures, enabling them to request the removal of infringing content from websites and online platforms.
-
-								</p>
-							</div>
+				<div data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000">
+					<div class="card transition">
+						<h2 class="transition">Safe</h2>
+						<p class="pt-3">
+							Safer Internet Day is an annual global initiative aimed at promoting awareness and fostering a safer and more responsible online environment, particularly for children and young people.
+						</p>
+						<div class="card_circle transition">
+							<img src="img/guide4.jpg" class="card_image" alt="" />
 						</div>
 					</div>
-				</div>
-			</div>
-			<div class="col-lg-6 col-md-12 mt-5 mb-4">
-				<div class="card transition">
-					<h2 class="transition">Guidelines</h2>
-					<p class="pt-3">
-						These guidelines offer valuable recommendations for individuals and organizations to navigate social media platforms responsibly and ethically.
-					</p>
-					<!-- <div class="cta-container transition">
-						<a href="#" class="cta">Read More</a>
-					</div> -->
-					<div class="card_circle transition">
-						<img src="img/info3.jpg" class="card_image" alt="" />
-					</div>
-				</div>
-				<div class="accordion" id="accordionExample3">
-					<div class="accordion-item rounded-0">
-						<h2 class="accordion-header">
-							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-								<strong>Best Practice Guidelines for Social Media Use</strong>
-							</button>
-						</h2>
-						<div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample4">
-							<div class="accordion-body">
-								<p>
-									They cover a range of topics, including privacy protection, content moderation, online etiquette, and fostering positive engagement with followers. <br><br> By following these guidelines, users can cultivate a safer and more constructive online environment while minimizing the risks associated with social media use, such as privacy breaches, cyberbullying, and misinformation dissemination. <br><br>Furthermore, adhering to best practices helps mitigate the negative impact of harmful online behaviors, such as cyberbullying and harassment, by promoting empathy and understanding among users.
-
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="text-center">
-				<h2 class="title mt-3">
-					Stay Safe
-				</h2>
-			</div>
-			<div class="col-lg-6 col-md-12 mt-5 mb-4">
-				<div class="card transition">
-					<h2 class="transition">Safe</h2>
-					<p class="pt-3">
-						Safer Internet Day is an annual global initiative aimed at promoting awareness and fostering a safer and more responsible online environment, particularly for children and young people.
-					</p>
-					<!-- <div class="cta-container transition">
-						<a href="#" class="cta">Read More</a>
-					</div> -->
-					<div class="card_circle transition">
-						<img src="img/guide4.jpg" class="card_image" alt="" />
-					</div>
-				</div>
-				<div class="accordion" id="accordionExample3">
-					<div class="accordion-item rounded-0">
-						<h2 class="accordion-header">
-							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-								<strong>Safer Internet Day Campaign</strong>
-							</button>
-						</h2>
-						<div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample4">
-							<div class="accordion-body">
-								<p>
-									Held every February, Safer Internet Day brings together various stakeholders, including governments, educators, parents, and industry leaders, to raise awareness about online safety issues and promote positive online behaviors. <br><br> Through educational events, workshops, and campaigns, Safer Internet Day encourages individuals to become more informed about online risks and empowers them to adopt safer online practices. <br><br> The campaign emphasizes the importance of digital literacy, critical thinking, and respectful online behavior to create a better internet for all users.
-								</p>
+					<div class="accordion" id="accordionExample3">
+						<div class="accordion-item rounded-0">
+							<h2 class="accordion-header">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+									<strong>Safer Internet Day Campaign</strong>
+								</button>
+							</h2>
+							<div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample4">
+								<div class="accordion-body">
+									<p>
+										Held every February, Safer Internet Day brings together various stakeholders, including governments, educators, parents, and industry leaders, to raise awareness about online safety issues and promote positive online behaviors. <br><br> Through educational events, workshops, and campaigns, Safer Internet Day encourages individuals to become more informed about online risks and empowers them to adopt safer online practices. <br><br> The campaign emphasizes the importance of digital literacy, critical thinking, and respectful online behavior to create a better internet for all users.
+									</p>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 			<div class="col-lg-6 col-md-12 mt-5 mb-4">
-				<div class="card transition">
-					<h2 class="transition">FTC</h2>
-					<p class="pt-3">
-						The FTC provides guidelines for influencers and brands engaged in influencer marketing to ensure transparency and consumer protection.
-					</p>
-					<!-- <div class="cta-container transition">
-						<a href="#" class="cta">Read More</a>
-					</div> -->
-					<div class="card_circle transition">
-						<img src="img/guide5.jpg" class="card_image" alt="" />
+				<div data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1300">
+					<div class="card transition">
+						<h2 class="transition">FTC</h2>
+						<p class="pt-3">
+							The FTC provides guidelines for influencers and brands engaged in influencer marketing to ensure transparency and consumer protection.
+						</p>
+						<div class="card_circle transition">
+							<img src="img/guide5.jpg" class="card_image" alt="" />
+						</div>
 					</div>
-				</div>
-				<div class="accordion" id="accordionExample3">
-					<div class="accordion-item rounded-0">
-						<h2 class="accordion-header">
-							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-								<strong>Federal Trade Commission (FTC) Guidelines</strong>
-							</button>
-						</h2>
-						<div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample4">
-							<div class="accordion-body">
-								<p>
-									These guidelines require influencers to clearly disclose their relationships with brands when endorsing or promoting products or services on social media platforms. <br><br> Disclosure must be clear, conspicuous, and easily understood by consumers, using terms such as "advertisement," "sponsored," or "paid partnership." The FTC aims to prevent deceptive advertising practices and maintain consumer trust by promoting honesty campaigns. <br><br>Failure to comply with FTC guidelines may result in legal consequences, including fines and penalties for violating consumer protection laws.
-								</p>
+					<div class="accordion" id="accordionExample3">
+						<div class="accordion-item rounded-0">
+							<h2 class="accordion-header">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+									<strong>Federal Trade Commission (FTC) Guidelines</strong>
+								</button>
+							</h2>
+							<div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample4">
+								<div class="accordion-body">
+									<p>
+										These guidelines require influencers to clearly disclose their relationships with brands when endorsing or promoting products or services on social media platforms. <br><br> Disclosure must be clear, conspicuous, and easily understood by consumers, using terms such as "advertisement," "sponsored," or "paid partnership." The FTC aims to prevent deceptive advertising practices and maintain consumer trust by promoting honesty campaigns. <br><br>Failure to comply with FTC guidelines may result in legal consequences, including fines and penalties for violating consumer protection laws.
+									</p>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="text-center">
-				<h2 class="title mt-3">
-					Policies & Guidelines
-				</h2>
-			</div>
-			<div class="col-lg-6 col-md-12 mt-5 mb-4">
-				<div class="card transition">
-					<h2 class="transition">Policies</h2>
-					<p class="pt-3">
-						Many schools and educational institutions have implemented social media policies to regulate the use of social media by students, teachers, and staff members.
-					</p>
-					<!-- <div class="cta-container transition">
-						<a href="#" class="cta">Read More</a>
-					</div> -->
-					<div class="card_circle transition">
-						<img src="img/info1.jpg" class="card_image" alt="" />
-					</div>
-				</div>
-				<div class="accordion" id="accordionExample3">
-					<div class="accordion-item rounded-0">
-						<h2 class="accordion-header">
-							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-								<strong>Social Media Policies for Schools and Educational Institutions</strong>
-							</button>
-						</h2>
-						<div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionExample4">
-							<div class="accordion-body">
-								<p>
-									In addition to outlining acceptable use and privacy protections, these policies often incorporate proactive measures to foster responsible digital citizenship among students and staff. <br><br>They often include provisions for safeguarding student privacy, promoting responsible digital citizenship, and preventing cyberbullying and online harassment.<br><br>By establishing clear rules and expectations, social media policies help educational institutions mitigate risks associated with social media use and create a safer online environment conducive to learning and collaboration.
-								</p>
-							</div>
-						</div>
-					</div>
+			<div data-aos="zoom-in" data-aos-duration="1500">
+				<div class="text-center">
+					<h2 class="title mt-3">
+						Policies & Guidelines
+					</h2>
 				</div>
 			</div>
 			<div class="col-lg-6 col-md-12 mt-5 mb-4">
-				<div class="card transition">
-					<h2 class="transition">Guidelines</h2>
-					<p class="pt-3">
-						Various organizations and authorities offer guidelines and resources to help parents and caregivers navigate the complexities of raising children in the digital age.
-					</p>
-					<!-- <div class="cta-container transition">
-						<a href="#" class="cta">Read More</a>
-					</div> -->
-					<div class="card_circle transition">
-						<img src="img/help9.jpg" class="card_image" alt="" />
+				<div data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000">
+					<div class="card transition">
+						<h2 class="transition">Policies</h2>
+						<p class="pt-3">
+							Many schools and educational institutions have implemented social media policies to regulate the use of social media by students, teachers, and staff members.
+						</p>
+						<div class="card_circle transition">
+							<img src="img/info1.jpg" class="card_image" alt="" />
+						</div>
 					</div>
-				</div>
-				<div class="accordion" id="accordionExample3">
-					<div class="accordion-item rounded-0">
-						<h2 class="accordion-header">
-							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-								<strong>Guidelines for Parents and Caregivers</strong>
-							</button>
-						</h2>
-						<div id="collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionExample4">
-							<div class="accordion-body">
-								<p>
-									These guidelines cover a range of topics, including setting parental controls on devices and online platforms, monitoring children's online activity, promoting digital literacy and critical thinking skills, and fostering open communication about online experiences. <br><br> By following these guidelines, parents can empower their children to make responsible choices online, navigate potential risks, and develop healthy digital habits. <br><br> Open communication and active parental involvement play crucial roles in supporting children's safe and positive engagement with digital technology.
-								</p>
+					<div class="accordion" id="accordionExample3">
+						<div class="accordion-item rounded-0">
+							<h2 class="accordion-header">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+									<strong>Social Media Policies for Schools and Educational Institutions</strong>
+								</button>
+							</h2>
+							<div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionExample4">
+								<div class="accordion-body">
+									<p>
+										In addition to outlining acceptable use and privacy protections, these policies often incorporate proactive measures to foster responsible digital citizenship among students and staff. <br><br>They often include provisions for safeguarding student privacy, promoting responsible digital citizenship, and preventing cyberbullying and online harassment.<br><br>By establishing clear rules and expectations, social media policies help educational institutions mitigate risks associated with social media use and create a safer online environment conducive to learning and collaboration.
+									</p>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-
+			<div class="col-lg-6 col-md-12 mt-5 mb-4">
+				<div data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1300">
+					<div class="card transition">
+						<h2 class="transition">Guidelines</h2>
+						<p class="pt-3">
+							Various organizations and authorities offer guidelines and resources to help parents and caregivers navigate the complexities of raising children in the digital age.
+						</p>
+						<div class="card_circle transition">
+							<img src="img/help9.jpg" class="card_image" alt="" />
+						</div>
+					</div>
+					<div class="accordion" id="accordionExample3">
+						<div class="accordion-item rounded-0">
+							<h2 class="accordion-header">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+									<strong>Guidelines for Parents and Caregivers</strong>
+								</button>
+							</h2>
+							<div id="collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionExample4">
+								<div class="accordion-body">
+									<p>
+										These guidelines cover a range of topics, including setting parental controls on devices and online platforms, monitoring children's online activity, promoting digital literacy and critical thinking skills, and fostering open communication about online experiences. <br><br> By following these guidelines, parents can empower their children to make responsible choices online, navigate potential risks, and develop healthy digital habits. <br><br> Open communication and active parental involvement play crucial roles in supporting children's safe and positive engagement with digital technology.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 	<!-- End Information -->

@@ -158,75 +158,78 @@ include('./_actions/loginTest.php');
 
 	<!-- Start Contact -->
 	<div class="container mt-5">
-		<div class="container d-flex justify-content-around text-center my-5">
-			<div class="row ">
-				<div class="col-lg-4 col-md-6 col-sm-12">
-					<div class="contact-icons h1">
-						<i class="fa-solid fa-phone"></i>
-					</div>
-					<h3 class="my-2 fw-bold">Phone</h3>
-					<p class="contact-text">
-						(95-1) 8255819 – 21, 8255823 – 32, <br />8255834
-					</p>
-				</div>
-				<div class="col-lg-4 col-md-6 col-sm-12">
-					<div class="contact-icons h1">
-						<i class="fa-solid fa-envelope"></i>
-					</div>
-
-					<h3 class="my-2 fw-bold">Mail</h3>
-					<p class="contact-text">info@SocialMediaCampaign.com</p>
-				</div>
-				<div class="col-lg-4 col-md-6 col-sm-12">
-					<div class="contact-icons h1">
-						<i class="fa-solid fa-location-dot"></i>
-					</div>
-					<h3 class="my-2 fw-bold">Address</h3>
-					<p class="contact-text">
-						No. 123, Alanpya Pagoda Road,<br />
-						Dagon Township Yangon, Myanmar.
-					</p>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="row justify-content-center">
-
-		<div class="col-md-6">
-			<div class="fw-bolder h3 text-center mb-3">
-				Contact Us
-			</div>
-			<div class="container">
-				<form action="" method="POST" class="row">
-					<div class="form-group col-sm-6">
-						<label for="phone">Phone:</label>
-						<input type="text" class="form-control my-3" id="phone" name="phone" placeholder="Enter Phone" required>
-					</div>
-					<div class="form-group">
-						<label for="address" class="mb-2">Address:</label>
-						<textarea class="form-control mb-3" name="address" id="address" rows="3" placeholder="Enter your Address ..." required></textarea>
-					</div>
-					<div class="form-group">
-						<label for="message" class="mb-2">Messages:</label>
-						<textarea class="form-control mb-3" name="message" id="message" rows="5" placeholder="Enter your Messages ..." required></textarea>
-					</div>
-					<a href="guidance.php" class="text-decoration-none">Privacy Policy</a>
-					<div class="form-check my-3 mx-2">
-						<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-						<label class="form-check-label" for="flexCheckDefault">
-							<p>Please Confirm that you agree to our privacy policy</p>
-						</label>
-					</div>
-					<div class="col-lg-12 ">
-						<button type="submit" class="btn btn-lg w-100 submit text-white" name="submit">Send Us</button>
-						<div class="text-center my-3">
-							<a class="violet" href="viewContact.php">Contact Lists</a>
+		<div data-aos="zoom-in" data-aos-duration="1500">
+			<div class="container d-flex justify-content-around text-center my-5">
+				<div class="row ">
+					<div class="col-lg-4 col-md-6 col-sm-12">
+						<div class="contact-icons h1">
+							<i class="fa-solid fa-phone"></i>
 						</div>
+						<h3 class="my-2 fw-bold">Phone</h3>
+						<p class="contact-text">
+							(95-1) 8255819 – 21, 8255823 – 32, <br />8255834
+						</p>
 					</div>
-				</form>
+					<div class="col-lg-4 col-md-6 col-sm-12">
+						<div class="contact-icons h1">
+							<i class="fa-solid fa-envelope"></i>
+						</div>
+						<h3 class="my-2 fw-bold">Mail</h3>
+						<p class="contact-text">info@SocialMediaCampaign.com</p>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-12">
+						<div class="contact-icons h1">
+							<i class="fa-solid fa-location-dot"></i>
+						</div>
+						<h3 class="my-2 fw-bold">Address</h3>
+						<p class="contact-text">
+							No. 123, Alanpya Pagoda Road,<br />
+							Dagon Township Yangon, Myanmar.
+						</p>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
+	<div data-aos="fade-up" data-aos-duration="1500">
+		<div class="row justify-content-center">
+			<div class="col-md-6">
+				<div class="fw-bolder h3 text-center mb-3">
+					Contact Us
+				</div>
+				<div class="container">
+					<form action="" method="POST" class="row">
+						<div class="form-group col-sm-6">
+							<label for="phone">Phone:</label>
+							<input type="text" class="form-control my-3" id="phone" name="phone" placeholder="Enter Phone" required>
+						</div>
+						<div class="form-group">
+							<label for="address" class="mb-2">Address:</label>
+							<textarea class="form-control mb-3" name="address" id="address" rows="3" placeholder="Enter your Address ..." required></textarea>
+						</div>
+						<div class="form-group">
+							<label for="message" class="mb-2">Messages:</label>
+							<textarea class="form-control mb-3" name="message" id="message" rows="5" placeholder="Enter your Messages ..." required></textarea>
+						</div>
+						<a href="guidance.php" class="text-decoration-none">Privacy Policy</a>
+						<div class="form-check my-3 mx-2">
+							<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+							<label class="form-check-label" for="flexCheckDefault">
+								<p>Please Confirm that you agree to our privacy policy</p>
+							</label>
+						</div>
+						<div class="col-lg-12 ">
+							<button type="submit" class="btn btn-lg w-100 submit text-white" name="submit">Send Us</button>
+							<div class="text-center my-3">
+								<a class="violet" href="viewContact.php">Contact Lists</a>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
 	<div class="col-lg-12 mb-5">
 		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15480176.029745288!2d85.98857812218613!3d18.693596926512967!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x305652a7714e2907%3A0xba7b0ee41c622b11!2sMyanmar%20(Burma)!5e0!3m2!1sen!2smm!4v1712235767913!5m2!1sen!2smm" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 	</div>
@@ -334,11 +337,6 @@ include('./_actions/loginTest.php');
 	<!-- Start Footer3 -->
 	<section class="footer3 py-3">
 		<div class="container d-flex justify-content-center">
-
-			<!-- <div>
-				<div id="currentFooterPage" class=""></div>
-			</div> -->
-
 			<div>
 				<ul class="footer-icons d-flex mt-2">
 					<li>

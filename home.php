@@ -46,19 +46,33 @@ include('./_actions/loginTest.php');
 							</a>
 							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
 								<ul>
-									<li><a class="dropdown-item" href="search.php"><i class="fa-brands fa-square-facebook"></i> Facebook</a></li>
-									<li><a class="dropdown-item" href="search.php"><i class="fa-brands fa-square-instagram"></i> Instagram</a></li>
-									<li><a class="dropdown-item" href="search.php"><i class="fa-brands fa-square-twitter"></i> Twitter</a></li>
+									<li>
+										<a class="dropdown-item" href="https://www.facebook.com"><i class="fa-brands fa-square-facebook"></i>
+											Facebook</a>
+									</li>
+									<li>
+										<a class="dropdown-item" href="https://www.instagram.com"><i class="fa-brands fa-square-instagram"></i>
+											Instagram</a>
+									</li>
+									<li>
+										<a class="dropdown-item" href="https://www.twitter.com"><i class="fa-brands fa-square-twitter"></i>
+											Twitter</a>
+									</li>
 								</ul>
 								<div class="vr mx-3"></div>
 								<ul>
-									<li><a class="dropdown-item" href="search.php"><i class="fa-brands fa-square-youtube"></i> TouTube</a></li>
 									<li>
-										<a class="dropdown-item" href="search.php"><i class="fa-brands fa-linkedin"></i>
+										<a class="dropdown-item" href="https://www.youtube.com"><i class="fa-brands fa-square-youtube"></i>
+											TouTube</a>
+									</li>
+									<li>
+										<a class="dropdown-item" href="https://www.linkedin.com"><i class="fa-brands fa-linkedin"></i>
 											Linkedin</a>
 									</li>
-									<li><a class="dropdown-item" href="search.php"><i class="fa-brands fa-square-pinterest"></i> Pinterest</a></li>
-
+									<li>
+										<a class="dropdown-item" href="https://www.pinterest.com"><i class="fa-brands fa-square-pinterest"></i>
+											Pinterest</a>
+									</li>
 								</ul>
 							</div>
 						</li>

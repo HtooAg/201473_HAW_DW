@@ -1,6 +1,8 @@
 <?php
 include('./_actions/dbConfig.php');
 include('./_actions/createRegister.php');
+include('./_actions/loginTest.php');
+
 ?>
 
 <!DOCTYPE html>
@@ -91,11 +93,19 @@ include('./_actions/createRegister.php');
 							<i class="fa-solid fa-circle-user fs-4" title="My Account"></i>
 						</a>
 					</li>
-					<li class="px-2">
-						<a href="login.php" class="nav-link">
-							<div class="btn btn-login">Login</div>
-						</a>
-					</li>
+					<?php if ($showLoginButton) : ?>
+						<li class="px-2">
+							<a href="<?php echo $buttonLink; ?>" class="nav-link">
+								<div class="btn btn-login">Login</div>
+							</a>
+						</li>
+					<?php else : ?>
+						<li>
+							<a href="<?php echo $buttonLink; ?>" class="nav-link">
+								<i class="fa-solid fa-right-from-bracket px-2" title="Logout"></i>
+							</a>
+						</li>
+					<?php endif; ?>
 					<div class="card border-0">
 						<form action="#" method="get" class="searchform navbar-form border-0" role="search">
 							<input type="hidden" value="search" name="view" />
@@ -256,11 +266,6 @@ include('./_actions/createRegister.php');
 	<!-- Start Footer3 -->
 	<section class="footer3 py-3">
 		<div class="container d-flex justify-content-center">
-
-			<!-- <div>
-				<div id="currentFooterPage" class="text-white"><strong>You are currently on the <span class="text-info">Register</span> Page.</strong></div>
-			</div> -->
-
 			<div>
 				<ul class="footer-icons d-flex mt-2">
 					<li>

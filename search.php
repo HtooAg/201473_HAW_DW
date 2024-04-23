@@ -71,6 +71,10 @@ include('./_actions/loginTest.php');
 										<a class="dropdown-item" href="https://www.pinterest.com"><i class="fa-brands fa-square-pinterest"></i>
 											Pinterest</a>
 									</li>
+									<li>
+										<a class="dropdown-item" href="search.php">
+											Search Popular SMA <i class="fa-solid fa-angles-right"></i></a>
+									</li>
 								</ul>
 							</div>
 						</li>
@@ -263,9 +267,6 @@ include('./_actions/loginTest.php');
 						</li>
 						<li class="nav-item">
 							<a href="information.php">Rise of Social Media</a>
-						</li>
-						<li class="nav-item">
-							<a href="help.php">Health</a>
 						</li>
 					</ul>
 				</div>

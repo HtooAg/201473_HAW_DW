@@ -213,7 +213,7 @@ include('./_actions/loginTest.php');
 						<div class="flip-card">
 							<div class="flip-card-inner">
 								<div class="flip-card-front">
-									<img src="img/sma3.jpeg" alt="flip-card" />
+									<img src="img/sma4.jpeg" alt="flip-card" />
 								</div>
 								<div class="flip-card-back bg-dark">
 									<div class="text">
@@ -235,7 +235,7 @@ include('./_actions/loginTest.php');
 						<div class="flip-card">
 							<div class="flip-card-inner">
 								<div class="flip-card-front">
-									<img src="img/sma4.jpeg" alt="flip-card" />
+									<img src="img/sma3.jpeg" alt="flip-card" />
 								</div>
 								<div class="flip-card-back bg-dark">
 									<div class="text">

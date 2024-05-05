@@ -67,7 +67,7 @@ if (!isset($_SESSION['username'])) {
 								<ul>
 									<li>
 										<a class="dropdown-item" href="https://www.youtube.com"><i class="fa-brands fa-square-youtube"></i>
-											TouTube</a>
+											YouTube</a>
 									</li>
 									<li>
 										<a class="dropdown-item" href="https://www.linkedin.com"><i class="fa-brands fa-linkedin"></i>
